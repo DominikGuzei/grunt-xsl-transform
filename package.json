@@ -1,0 +1,41 @@
+{
+  "name": "grunt-xsl-transform",
+  "description": "Simple wrapper around the node module xsl-transform",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dominik/grunt-xsl-transform",
+  "author": {
+    "name": "Dominik Guzei",
+    "email": "dominik.guzei@gmail.com",
+    "url": "http://codeadventure.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominik/grunt-xsl-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dominik/grunt-xsl-transform/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dominik/grunt-xsl-transform/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "xml", "xsl", "transformation", "grunt", "plugin"
+  ]
+}
